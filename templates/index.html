@@ -1,1 +1,4 @@
-<p>repos: {{repos}}</p>
+<form action="{{ url_for('dash') }}" method="post">
+    Organization: <input type="text" name="organization"><br>
+    <input type="submit" value="Submit">
+</form>
